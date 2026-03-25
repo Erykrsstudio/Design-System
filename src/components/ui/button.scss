@@ -1,0 +1,19 @@
+.btn{
+    &-primary{
+        border-radius: var(--vui-control-xl-radius);
+        background: var(--vui-button-primary-bg);
+        color: var(--vui-button-primary-fg);
+        border-color: transparent;
+        &:hover{
+            background: var(--vui-button-primary-bg-hover);
+        }
+    }
+    &-xl{
+        padding: var(--vui-button-xl-py) var(--vui-button-xl-px);
+        gap: var(--vui-button-xl-gap);
+        height: var(--vui-control-xl-height);
+        line-height: var(--vui-control-xl-line-height);
+        font-size: var(--vui-control-xl-font-size);
+        font-weight: var(--vui-button-xl-font-weight);
+    }
+}

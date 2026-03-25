@@ -1,0 +1,11 @@
+.card{
+    padding: var(--vui-block-xl-body-py) var(--vui-block-xl-body-px);
+    background-color: var(--surface-container);
+    border-color: var(--surface-border-container);
+    &-title{
+        color: var(--color-heading);
+    }
+    &-description{
+        color: var(--color-body);
+    }
+}

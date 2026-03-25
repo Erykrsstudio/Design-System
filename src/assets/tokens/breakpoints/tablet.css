@@ -1,0 +1,33 @@
+:root{
+    @media (max-width: 1280px) {
+        --vui-control-xl-height: calc(16 * var(--spacing));
+        --vui-control-xl-font-size: var(--text-lg);
+        --text-body-xl-font-size: var(--text-xl);
+        --text-body-xl-line-height: var(--text-xl-line-height);
+        --text-body-xl-letter-spacing: 0px;
+        --text-body-xl-font-weight: var(--font-weight-normal);
+        --vui-control-xl-line-height: var(--text-lg-line-height);
+        --vui-control-xl-radius: var(--radius-lg);
+        --vui-block-xl-body-px: calc(9 * var(--spacing));
+        --vui-block-xl-body-py: calc(11 * var(--spacing));
+        --vui-block-xl-radius: var(--radius-3xl);
+        --text-body-base-font-size: var(--text-base);
+        --text-body-base-line-height: var(--text-base-line-height);
+        --text-body-base-letter-spacing: 0px;
+        --text-body-base-font-weight: var(--font-weight-normal);
+        --vui-button-xl-px: calc(5 * var(--spacing));
+        --vui-button-xl-py: calc(1.5 * var(--spacing));
+        --vui-button-xl-gap: calc(3.5 * var(--spacing));
+        --vui-button-xl-font-weight: var(--font-weight-medium);
+        --vui-field-xl-px: calc(5 * var(--spacing));
+        --vui-field-xl-py: calc(1.5 * var(--spacing));
+        --vui-field-xl-gap: calc(3.5 * var(--spacing));
+        --vui-field-xl-font-weight: var(--font-weight-light);
+        --vui-block-xl-body-gap: calc(5 * var(--spacing));
+        --vui-block-xl-title-gap: calc(3.5 * var(--spacing));
+        --vui-text-heading-3: var(--text-3xl);
+        --vui-text-heading-3--line-height: var(--text-3xl--line-height);
+        --vui-text-body-base: var(--text-base);
+        --vui-text-body-base--line-height: var(--text-base--line-height);
+    }
+}

@@ -1,0 +1,15 @@
+.context-dark{
+    --vui-button-primary-bg: var(--color-blue-600);
+    --vui-button-primary-bg-hover: var(--color-blue-700);
+    --surface-main: var(--color-slate-800);
+    --vui-button-primary-fg: var(--color-white);
+    --vui-field-defaul-bg: var(--color-slate-800);
+    --vui-field-defaul-bg-hover: var(--color-gray-800);
+    --vui-field-defaul-placeholder: var(--color-slate-400);
+    --vui-field-defaul-border-color: var(--color-slate-600);
+    --vui-field-defaul-border-color-hover: var(--color-blue-500);
+    --color-heading: var(--color-white);
+    --color-body: var(--color-gray-200);
+    --surface-container: var(--color-slate-700);
+    --surface-border-container: var(--color-slate-900);
+}

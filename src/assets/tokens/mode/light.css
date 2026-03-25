@@ -1,0 +1,15 @@
+:root{
+    --vui-button-primary-bg: var(--color-blue-700);
+    --vui-button-primary-bg-hover: var(--color-blue-500);
+    --surface-main: var(--color-white);
+    --vui-button-primary-fg: var(--color-white);
+    --vui-field-defaul-bg: var(--color-white);
+    --vui-field-defaul-bg-hover: var(--color-white);
+    --vui-field-defaul-placeholder: var(--color-gray-500);
+    --vui-field-defaul-border-color: var(--color-gray-200);
+    --vui-field-defaul-border-color-hover: var(--color-blue-500);
+    --surface-container: var(--color-white);
+    --surface-border-container: var(--color-gray-300);
+    --color-heading: var(--color-black);
+    --color-body: var(--color-gray-600);
+}

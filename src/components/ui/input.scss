@@ -1,0 +1,21 @@
+.input{
+    border: 1px solid var(--vui-field-defaul-border-color);
+    background-color: var(--vui-field-defaul-bg);
+    color: var(--vui-field-defaul-color);
+    &::placeholder {
+        color: var(--vui-field-defaul-placeholder);
+    }
+    &:hover,
+    &:focus{
+        border-color: var(--vui-field-defaul-border-color-hover);
+        outline: none;
+    }
+    &-xl{
+        height: var(--vui-control-xl-height);
+        font-size: var(--vui-control-xl-font-size);
+        line-height: var(--vui-control-xl-line-height);
+        border-radius: var(--vui-control-xl-radius);
+        padding: var(--vui-field-xl-py) var(--vui-field-xl-px);
+        font-weight: var(--vui-field-xl-font-weight);
+    }
+}

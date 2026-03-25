@@ -1,6 +1,5 @@
 .btn{
     &-primary{
-        border-radius: var(--vui-control-xl-radius);
         background: var(--vui-button-primary-bg);
         color: var(--vui-button-primary-fg);
         border-color: transparent;
@@ -10,6 +9,7 @@
     }
     &-xl{
         padding: var(--vui-button-xl-py) var(--vui-button-xl-px);
+        border-radius: var(--vui-control-xl-radius);
         gap: var(--vui-button-xl-gap);
         height: var(--vui-control-xl-height);
         line-height: var(--vui-control-xl-line-height);

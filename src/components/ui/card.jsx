@@ -50,12 +50,12 @@ function CardTitle({
   return (
     <div
       data-slot="card-title"
-      className={cn(
-        vui
-        ? "text-heading-3 text-center font-light card-title"
-        : "text-4xl text-center font-light text-black dark:text-white primary:text-white max-xl:text-3xl max-md:text-2xl",
-        className
-      )}
+      className={
+        (vui
+          ? "text-heading-3 text-heading text-center font-light card-title"
+          : "text-4xl text-center font-light text-black dark:text-white primary:text-white max-xl:text-3xl max-md:text-2xl"
+        ) + (className ? ` ${className}` : "")
+      }
       {...props} />
   );
 }
@@ -68,10 +68,12 @@ function CardDescription({
   return (
     <div
       data-slot="card-description"
-      className={cn(
-        vui
-        ? "text-body-base text-center card-description"
-        : "text-base text-center text-slate-700 font-light dark:text-blue-50 primary:text-blue-50 max-md:text-sm", className)}
+      className={
+        (vui
+          ? "text-body-base text-body text-center card-description"
+          : "text-base text-center text-slate-700 font-light dark:text-blue-50 primary:text-blue-50 max-md:text-sm"
+        ) + (className ? ` ${className}` : "")
+      }
       {...props} />
   );
 }

@@ -39,8 +39,8 @@
     --color-popover: var(--popover);
     --color-card-foreground: var(--card-foreground);
     --color-card: var(--card);
-    --color-heading:var(--color-heading);
-    --color-body:var(--color-body);
+    --color-heading:var(--vui-text-color-heading);
+    --color-body:var(--vui-text-color-body);
     --spacing: 4px;
     --radius-xl: 14px;
     --rounded-4xl: 26px;
@@ -52,13 +52,15 @@
     --text-xl--line-height: 35px;
     --text-2xl:24px;
     --text-2xl--line-height: 38px;
+    --text-3xl: 30px;
+    --text-3xl--line-height: 39px;
     --text-4xl: 36px;
     --text-4xl--line-height: 56px;
-    --text-heading-3: var(--vui-text-heading-3);
-    --text-heading-3--line-height: var(--vui-text-heading-3--line-height);
-    --text-body-base: var(--vui-text-body-base);
-    --text-body-base--line-height: var(--vui-text-body-base--line-height);
-    --color-surface: var(--surface-main);
+    --text-heading-3: var(--vui-text-heading-3-font-size);
+    --text-heading-3--line-height: var(--vui-text-heading-3-line-height);
+    --text-body-base: var(--vui-text-body-base-font-size);
+    --text-body-base--line-height: var(--vui-text-body-base-line-height);
+    --color-surface: var(--vui-surface-main);
 }
 :root {
     --background: oklch(1 0 0);
